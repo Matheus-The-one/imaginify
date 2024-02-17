@@ -24,7 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <ClerkProvider appearance={{
+      variables:{colorPrimary:'#624cf5' }
+    }}>
     <html lang="en">
       <body className={cn("font-IBMplex antialiased",IBMplex.variable)}>{children}</body>
     </html>

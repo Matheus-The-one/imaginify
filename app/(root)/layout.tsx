@@ -1,8 +1,11 @@
+import SideBar from '@/components/shared/SideBar'
+
 import React from 'react'
 
 const layout = ({children}:{children:React.ReactNode}) => {
   return (
     <main className='root'>
+      <SideBar />
         <div className='root-container'>
             <div className='wrapper'>
               {children}
@@ -10,7 +13,7 @@ const layout = ({children}:{children:React.ReactNode}) => {
         </div>
 
 
-
+       
 
 
     </main>

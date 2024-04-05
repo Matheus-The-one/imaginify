@@ -4,7 +4,7 @@ dnfvnfgbfThis is a [Next.js](https://nextjs.org/) project bootstrapped with [`cr
 
 First, run the development server:
 
-```bash
+```bashgjhkg
 npm run dev
 # or
 yarn dev
